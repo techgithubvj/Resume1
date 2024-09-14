@@ -1,0 +1,27 @@
+#css-
+    #selector:
+1.universal selector 
+2.class selector 
+3.id selector
+4.element selector
+5.grouping selector
+css font- 
+1-font style-> italic-bold
+2-font size->px
+3-font weight->700 
+##css border-
+ *display properties: 
+1) display inlime
+2)display flex
+3)display inline-block
+4)display flex
+##position properties:
+1)static -> by default property
+2)relative -> 
+3)absolute
+4)fixed
+5)sticky
+#grid-
+#resposive-
+media-query-:
+

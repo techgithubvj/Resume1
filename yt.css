@@ -1,0 +1,18 @@
+*{
+    background-color: cyan;
+}
+.container{
+    height: 400px;
+    width: 300px;
+    border: 2px solid red;
+    display: flex;
+    box-shadow: 5px 5px 10px black;
+    }
+    .card{
+        height: 120px;
+        border: 2px solid black;
+        margin: 4px;
+        width: 120px;
+        
+    }
+
