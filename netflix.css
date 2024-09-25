@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(netflix-s.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 200px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    z-index: 10px;
+   
+}
+
+.navbar .logo img {
+    height: 60px;
+}
+
+.navbar nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.navbar .user-profile img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.hero {
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/0b02b9f0-f84e-42de-80bb-c7eae6d11fb5/0b02b9f0-f84e-42de-80bb-c7eae6d11fb5-48c74196-26b5-4de6-bd98-b04271b8a081.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.email-signup input {
+    padding: 10px;
+    width: 300px;
+    font-size: 1rem;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.email-signup button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.email-signup button:hover {
+    background-color: #d40813;
+}
+
+.movie-rows {
+    padding: 20px;
+}
+
+.movie-rows h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.movies {
+    display: flex;
+    gap: 10px;
+}
+
+.movies img {
+    width: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.movies img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #141414;
+    color: #aaa;
+}
+
